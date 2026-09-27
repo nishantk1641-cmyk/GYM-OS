@@ -1,0 +1,1 @@
+Place local photos, logos, icons or future assets in this folder. The current demo uses CSS/SVG visuals and Google Fonts, so it has no required binary assets.

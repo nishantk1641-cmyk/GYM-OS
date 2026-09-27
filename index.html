@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GymOS — the modern operating system for ambitious gyms. Manage members, attendance, payments and growth in one beautiful platform.">
+  <title>GymOS — Run Your Gym Smarter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <nav class="nav container">
+    <a class="brand" href="#top" aria-label="GymOS home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>GYM<span>OS</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <a class="nav-cta" href="#pricing">Start free <span>↗</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </nav>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> THE OPERATING SYSTEM FOR MODERN GYMS</div>
+        <h1>Build a stronger<br><em>business.</em></h1>
+        <p class="hero-text">GymOS brings members, attendance, payments, trainers and growth into one beautifully simple platform.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#pricing">Start your free trial <span>→</span></a>
+          <a class="btn btn-ghost" href="#features"><span class="play">▶</span> Explore GymOS</a>
+        </div>
+        <div class="trust-row">
+          <div class="avatars">
+            <span>RK</span><span>AM</span><span>NV</span><span>+</span>
+          </div>
+          <div><strong>Built for ambitious gyms</strong><small>Simple enough for your front desk.</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="scene">
+        <div class="orb orb-a"></div><div class="orb orb-b"></div>
+        <div class="ring ring-1"></div><div class="ring ring-2"></div><div class="ring ring-3"></div>
+        <div class="float-card attendance">
+          <span class="mini-icon">✓</span>
+          <div><b>Check-in</b><small>Rahul Sharma</small></div>
+          <strong>18:42</strong>
+        </div>
+        <div class="float-card revenue">
+          <small>MONTHLY REVENUE</small><b>₹84,500</b><span>↗ 18.4%</span></div>
+
+        <div class="dashboard-3d" id="dashboard">
+          <div class="dash-top">
+            <div class="dash-brand"><span class="brand-mark mini"><span></span><span></span><span></span></span>GYMOS</div>
+            <div class="dash-search">⌕ Search anything...</div>
+            <div class="dash-avatar">RS</div>
+          </div>
+          <div class="dash-body">
+            <aside>
+              <div class="side-item active">⌂ <span>Dashboard</span></div>
+              <div class="side-item">♙ <span>Members</span></div>
+              <div class="side-item">◷ <span>Attendance</span></div>
+              <div class="side-item">₹ <span>Payments</span></div>
+              <div class="side-item">⚡ <span>Workouts</span></div>
+              <div class="side-item">▥ <span>Reports</span></div>
+            </aside>
+            <div class="dash-main">
+              <div class="dash-heading"><div><small>MONDAY, SEPTEMBER 27</small><h3>Good morning, Rahul <span>✦</span></h3></div><button>+ Add member</button></div>
+              <div class="stat-grid">
+                <div class="stat"><small>ACTIVE MEMBERS</small><b>248</b><span>+12 this month</span></div>
+                <div class="stat"><small>TODAY'S VISITS</small><b>127</b><span>+8.2% vs last week</span></div>
+                <div class="stat"><small>REVENUE</small><b>₹84.5K</b><span>+18.4% this month</span></div>
+              </div>
+              <div class="chart-card">
+                <div class="chart-head"><div><small>ATTENDANCE</small><b>Weekly activity</b></div><span>Last 7 days⌄</span></div>
+                <div class="chart">
+                  <div class="gridline g1"></div><div class="gridline g2"></div><div class="gridline g3"></div>
+                  <svg viewBox="0 0 600 150" preserveAspectRatio="none" aria-label="Attendance chart">
+                    <defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c6ff38" stop-opacity=".35"/><stop offset="100%" stop-color="#c6ff38" stop-opacity="0"/></linearGradient></defs>
+                    <path d="M0 112 C55 100 70 118 125 83 S205 105 255 72 S325 95 375 54 S440 74 495 38 S550 64 600 24 L600 150 L0 150Z" fill="url(#fill)"/>
+                    <path d="M0 112 C55 100 70 118 125 83 S205 105 255 72 S325 95 375 54 S440 74 495 38 S550 64 600 24" fill="none" stroke="#c6ff38" stroke-width="4" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="days"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-strip container">
+      <span>ONE DASHBOARD. EVERY PART OF YOUR GYM.</span>
+      <div><b>MEMBERS</b><b>ATTENDANCE</b><b>PAYMENTS</b><b>TRAINERS</b><b>GROWTH</b></div>
+    </section>
+
+    <section class="features section container" id="features">
+      <div class="section-kicker">EVERYTHING IN ONE PLACE</div>
+      <div class="section-head"><h2>Less admin.<br><em>More impact.</em></h2><p>Stop stitching together spreadsheets, chat messages and payment screenshots. GymOS turns the daily chaos into one clear command center.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card big-card">
+          <div class="feature-number">01</div><div class="feature-icon">◉</div>
+          <h3>Instant check-ins</h3><p>Members scan their personal QR. Attendance is logged in seconds, without paper registers or manual entry.</p>
+          <div class="qr-visual"><div class="qr-lines"></div><span>SCAN<br>TO ENTER</span></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">02</div><div class="feature-icon">₹</div>
+          <h3>Never miss a renewal</h3><p>See expiring memberships and pending payments before they become lost revenue.</p>
+          <div class="mini-list"><div><span class="dot red"></span> 8 expired <b>₹12,400</b></div><div><span class="dot amber"></span> 12 due soon <b>₹18,000</b></div></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">03</div><div class="feature-icon">↗</div>
+          <h3>Progress people can see</h3><p>Track weight, measurements and workouts so members can see the work paying off.</p>
+          <div class="progress-ring"><strong>74<span>kg</span></strong><small>+2.4 this month</small></div>
+        </article>
+        <article class="feature-card wide-card">
+          <div><div class="feature-number">04</div><div class="feature-icon">⚡</div><h3>Made for the whole team</h3><p>Owners get the numbers. Trainers get their members. Front desk gets a faster workflow. Everyone stays in sync.</p></div>
+          <div class="team-stack"><span>RS</span><span>AK</span><span>NV</span><span>+8</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase section" id="how">
+      <div class="container showcase-inner">
+        <div class="phone-wrap">
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <small>MY MEMBERSHIP</small><h3>IRON FITNESS</h3>
+              <div class="member-pass"><span>PRO</span><b>24 OCT 2026</b><small>MEMBERSHIP ACTIVE</small></div>
+              <div class="phone-stat"><div><small>VISITS</small><b>18</b></div><div><small>STREAK</small><b>7🔥</b></div><div><small>PLAN</small><b>PRO</b></div></div>
+              <div class="phone-section"><small>YOUR NEXT WORKOUT</small><div class="exercise"><span>01</span><b>CHEST PRESS</b><strong>4 × 12</strong></div><div class="exercise"><span>02</span><b>INCLINE DB PRESS</b><strong>3 × 10</strong></div><div class="exercise"><span>03</span><b>CABLE FLY</b><strong>3 × 15</strong></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="showcase-copy"><div class="section-kicker">A BETTER MEMBER EXPERIENCE</div><h2>Your gym,<br><em>in their pocket.</em></h2><p>Give every member a clean mobile experience for their membership, workouts, progress and renewals. No complicated apps. Just the essentials.</p><div class="check-list"><div>✓ Digital membership card</div><div>✓ Workout plans & exercise history</div><div>✓ Progress tracking</div><div>✓ Renewal reminders</div></div><a class="text-link" href="#pricing">See what’s included <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="pricing section container" id="pricing">
+      <div class="section-kicker">SIMPLE PRICING</div><div class="section-head"><h2>Start small.<br><em>Scale when ready.</em></h2><p>One simple subscription. No bloated enterprise features. Upgrade when your gym needs more.</p></div>
+      <div class="price-grid">
+        <article class="price-card"><small>STARTER</small><h3>₹299<span>/mo</span></h3><p>For small gyms getting organized.</p><ul><li>✓ Up to 100 members</li><li>✓ Attendance & members</li><li>✓ Membership expiry</li><li>✓ Payment tracking</li></ul><a href="#" class="price-btn">Start Starter</a></article>
+        <article class="price-card featured"><div class="popular">MOST POPULAR</div><small>PRO</small><h3>₹599<span>/mo</span></h3><p>For gyms ready to grow.</p><ul><li>✓ Unlimited members</li><li>✓ QR attendance</li><li>✓ Workout & progress</li><li>✓ WhatsApp reminders</li><li>✓ Trainer accounts</li></ul><a href="#" class="price-btn">Start Pro</a></article>
+        <article class="price-card"><small>BUSINESS</small><h3>₹999<span>/mo</span></h3><p>For teams and growing chains.</p><ul><li>✓ Everything in Pro</li><li>✓ Staff accounts</li><li>✓ Advanced reports</li><li>✓ Custom branding</li><li>✓ Priority support</li></ul><a href="#" class="price-btn">Start Business</a></article>
+      </div>
+    </section>
+
+    <section class="cta container">
+      <div class="cta-orbit"></div><div class="section-kicker">READY WHEN YOU ARE</div>
+      <h2>Run your gym like<br><em>a serious business.</em></h2>
+      <p>Join the gyms choosing clarity over chaos.</p><a class="btn btn-primary" href="#pricing">Start your free trial <span>→</span></a>
+    </section>
+  </main>
+
+  <footer class="footer container"><div class="brand"><span class="brand-mark"><span></span><span></span><span></span></span><span>GYM<span>OS</span></span></div><p>© 2026 GymOS. Built for stronger businesses.</p><div><a href="#">Privacy</a><a href="#">Terms</a><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
